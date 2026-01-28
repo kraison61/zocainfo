@@ -19,7 +19,7 @@ export default function HeroSection({ heading, headingParagraph, paragraph }: Pr
   };
 
   const calculateLoan = () => {
-    const rate = interestRate / 100; // 25 => 25% flat fee (per loan)
+    const rate = interestRate / 100; 
     const interest = loanAmount * rate;
     const total = loanAmount + interest;
   
@@ -41,10 +41,10 @@ export default function HeroSection({ heading, headingParagraph, paragraph }: Pr
           {/* Left Content */}
           <div className="space-y-8">
             {/* H1: Main keyword-rich headline */}
-            <h1 className="text-5xl font-bold leading-tight text-gray-900 lg:text-6xl font-display animate-fade-in-up">
+            <h1 className="text-3xl font-bold leading-tight text-gray-900 lg:text-4xl font-display animate-fade-in-up">
               {heading ? heading : "Zoca Loans Reviews"}
               <br />
-              <span className="text-primary">
+              <span className="text-primary lg:text-3xl text-2xl">
                 {headingParagraph ? headingParagraph : "Understanding Your Fast Funding Options"}
               </span>
             </h1>

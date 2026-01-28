@@ -6,11 +6,7 @@ import Requirements from '@/components/Requirements'
 import Testimonials from '@/components/Testimonials'
 import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  
-};
 
 export default function Home() {
   return (

@@ -15,8 +15,9 @@ type Props = {
   };
 };
 
-export default function LoanPage({ params }: Props) {
-  const data = loanData[params.slug];
+export default async function LoanPage({ params }: Props) {
+  const { slug } = await params;
+  const data =  await loanData[slug];
   if (!data) {
     notFound();
   }
