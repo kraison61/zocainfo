@@ -2,9 +2,16 @@
 
 import { useState } from "react";
 
-export default function HeroSection() {
-  const [loanAmount, setLoanAmount] = useState(10000);
-  const [loanPeriod, setLoanPeriod] = useState(12);
+type Props = {
+  title:string;
+  description:string;
+  heading: string;
+  headingParagraph:string;
+  paragraph:string;
+}
+
+export default function HeroSection({ heading, headingParagraph, paragraph }: Props) {
+  const [loanAmount, setLoanAmount] = useState(2500);
   const [interestRate, setinterestRate] = useState(25);
 
   const formatCurrency = (amount: number) => {
@@ -22,9 +29,6 @@ export default function HeroSection() {
     };
   };
   
-  
-  
-
   const { totalInterest, totalPayment } = calculateLoan();
 
   return (
@@ -38,25 +42,18 @@ export default function HeroSection() {
           <div className="space-y-8">
             {/* H1: Main keyword-rich headline */}
             <h1 className="text-5xl font-bold leading-tight text-gray-900 lg:text-6xl font-display animate-fade-in-up">
-              Zoca Loans Reviews
+              {heading ? heading : "Zoca Loans Reviews"}
               <br />
               <span className="text-primary">
-                Understanding Your Fast Funding Options
+                {headingParagraph ? headingParagraph : "Understanding Your Fast Funding Options"}
               </span>
             </h1>
 
             {/* Paragraph: Supporting description with secondary keywords */}
             <p className="text-xl leading-relaxed text-gray-600 animate-fade-in-up animation-delay-200">
-              When you’re facing an unexpected financial hurdle, finding zoca
-              loans reviews that offer a transparent look at the lending process
-              is crucial. Zoca Loans provides a platform for short-term
-              installment loans, often utilized by those who need emergency cash
-              but may not qualify for traditional bank products. While the zoca
-              loans apply process is designed for speed, it is vital to
-              understand the terms, interest rates, and the nature of tribal
-              lending before committing to a contract. This review breaks down
-              the costs, the zoca loans login experience, and what actual
-              borrowers are saying about their services.
+
+              
+              {paragraph ? paragraph : "When you’re facing an unexpected financial hurdle, finding zoca loans reviews that offer a transparent look at the lending process is crucial. Zoca Loans provides a platform for short-term installment loans, often utilized by those who need emergency cash but may not qualify for traditional bank products. While the zoca loans apply process is designed for speed, it is vital to understand the terms, interest rates, and the nature of tribal lending before committing to a contract. This review breaks down the costs, the zoca loans login experience, and what actual borrowers are saying about their services."}
             </p>
 
             {/* Stats */}
@@ -155,9 +152,9 @@ export default function HeroSection() {
               </label>
               <input
                 type="range"
-                min="1000"
-                max="50000"
-                step="1000"
+                min="0"
+                max="5000"
+                step="500"
                 value={loanAmount}
                 onChange={(e) => setLoanAmount(Number(e.target.value))}
                 className="slider"
@@ -187,7 +184,7 @@ export default function HeroSection() {
               />
               <div className="flex justify-between mt-2 text-sm text-gray-600">
                 <span>10%</span>
-                <span className="text-2xl font-bold font-display text-primary">{interestRate}% per loan</span>
+                <span className="text-2xl font-bold font-display text-primary">{interestRate}%</span>
                 <span>70%</span>
               </div>
             </div>

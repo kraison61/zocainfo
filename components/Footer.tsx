@@ -118,7 +118,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-4 pt-8 text-sm text-gray-400 border-t border-gray-800 md:flex-row">
           {/* Paragraph: Copyright and legal */}
           <p>
-            © 2025 QuickCash Financial Services. All rights reserved. Licensed lender in all 50 states.
+            © 2025 zocaloans. All rights reserved. Licensed lender in all 50 states.
           </p>
           {/* Paragraph: Contact information */}
           <p>
