@@ -1,4 +1,4 @@
-import { loanData,howItWorks } from "@/lib/data";
+import { loanData } from "@/lib/data";
 import { notFound } from "next/navigation";
 import Navigation from '@/components/Navigation'
 import HeroSection from '@/components/HeroSection'

@@ -22,9 +22,9 @@ export const loanData: Record<string, {
     'emergency-cash-loans': {
       title: 'Emergency Cash Loans Online – Compare Fast Options and Get Funds When You Need Them',
       description: 'Looking for emergency cash loans? Compare fast online loan options, review costs and terms, and choose a lender that fits your financial situation today.',
-      heading:'testheading3',
-      headingParagrahp:'testheadingParagrahp3',
-      paragraph:'testparagraph3'
+      heading:'Fast Emergency Cash Loans Online',
+      headingParagrahp:'Instant Emergency Cash Loans for Life’s Unexpected Moments',
+      paragraph:'Access hardship emergency loans from $500 to $10,000. Whether you need emergency cash loans for bad credit or a quick bridge to your next paycheck, we offer same-day funding to get you back on track'
     }
   }
 

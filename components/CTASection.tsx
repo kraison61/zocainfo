@@ -16,7 +16,7 @@ export default function CTASection() {
         </p>
 
         <a
-          href="#calculator"
+          href="/application-form"
           className="inline-block bg-white text-primary px-12 py-5 rounded-full text-xl font-semibold shadow-2xl shadow-black/20 transition-all duration-300 hover:scale-105 hover:shadow-3xl"
         >
           Start Your Application Now →
