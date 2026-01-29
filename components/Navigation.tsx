@@ -18,20 +18,20 @@ export default function Navigation() {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 animate-slide-down ${
       isScrolled ? 'bg-white/95 backdrop-blur-lg shadow-lg shadow-primary/5' : 'bg-white/95 backdrop-blur-lg'
     }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary-dark rounded-xl flex items-center justify-center text-white font-bold text-xl transition-transform group-hover:scale-110">
-              Q
+            <div className="flex items-center justify-center w-10 h-10 text-xl font-bold text-white transition-transform bg-gradient-to-br from-primary to-primary-dark rounded-xl group-hover:scale-110">
+              Z
             </div>
-            <span className="font-display text-2xl font-bold text-primary-dark">
-              QuickCash
+            <span className="text-2xl font-bold font-display text-primary-dark">
+              ZocaCash
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="items-center hidden gap-8 md:flex">
             <Link href="#how" className="nav-link">
               How It Works
             </Link>
@@ -53,7 +53,7 @@ export default function Navigation() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors">
+          <button className="p-2 transition-colors rounded-lg md:hidden hover:bg-gray-100">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>

@@ -44,7 +44,7 @@ export default function HeroSection({ heading, headingParagraph, paragraph }: Pr
             <h1 className="text-3xl font-bold leading-tight text-gray-900 lg:text-4xl font-display animate-fade-in-up">
               {heading ? heading : "Zoca Loans Reviews"}
               <br />
-              <span className="text-primary lg:text-3xl text-2xl">
+              <span className="text-2xl text-primary lg:text-3xl">
                 {headingParagraph ? headingParagraph : "Understanding Your Fast Funding Options"}
               </span>
             </h1>
@@ -152,7 +152,7 @@ export default function HeroSection({ heading, headingParagraph, paragraph }: Pr
               </label>
               <input
                 type="range"
-                min="0"
+                min="200"
                 max="5000"
                 step="500"
                 value={loanAmount}
