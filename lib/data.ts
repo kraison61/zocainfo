@@ -25,6 +25,13 @@ export const loanData: Record<string, {
       heading:'Fast Emergency Cash Loans Online',
       headingParagrahp:'Instant Emergency Cash Loans for Life’s Unexpected Moments',
       paragraph:'Access hardship emergency loans from $500 to $10,000. Whether you need emergency cash loans for bad credit or a quick bridge to your next paycheck, we offer same-day funding to get you back on track'
+    },
+    'zocaloans-login':{
+      title: 'ZocaLoans Login & Apply - Access Your Account',
+      description: 'Ready to manage your loan? Use the ZocaLoans login to view your balance or make payments. New here? Zoca loans apply online for fast emergency funding up to $1,500.',
+      heading:'ZocaLoans Login – Manage Your Account or Apply for a New Loan',
+      headingParagrahp:'Easy Access to Your ZocaLoans Account',
+      paragraph:'Log in to check your repayment schedule, make a payment, or use the Zoca loans apply portal to secure fast funding if you\'re a returning customer.'
     }
   }
 
