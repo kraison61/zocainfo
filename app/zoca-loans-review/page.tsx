@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Navigation />
+      <CTASection />
       <HeroSection title="" description="" heading="" headingParagraph="" paragraph="" />
       <HowItWorks />
       <Benefits />
       <Requirements />
       <Testimonials />
-      <CTASection />
       <Footer />
     </main>
   )

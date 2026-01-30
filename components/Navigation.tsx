@@ -60,7 +60,7 @@ export default function Navigation() {
               Reviews
             </Link>
             <Link 
-              href="#apply" 
+              href="/application-form" 
               className="btn-primary"
             >
               Apply Now
@@ -143,7 +143,7 @@ export default function Navigation() {
           </Link>
           
           <Link 
-            href="#apply" 
+            href="/application-form" 
             className="mobile-nav-cta"
             onClick={handleLinkClick}
           >

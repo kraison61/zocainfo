@@ -43,6 +43,7 @@ export default async function LoanPage({ params }: Props) {
   return (
     <>
     <Navigation />
+    <CTASection />
       <HeroSection
         title={data.title}
         description={data.description}
@@ -54,7 +55,6 @@ export default async function LoanPage({ params }: Props) {
       <Benefits />
       <Requirements />
       <Testimonials />
-      <CTASection />
       <FAQSection />
       <Footer />
     </>

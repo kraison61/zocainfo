@@ -17,7 +17,7 @@ export default function CTASection() {
         </a>
         {/* Paragraph: Final CTA with benefits and no-risk messaging */}
         <p className="m-10 text-xl leading-relaxed text-white/90">
-          Join thousands of satisfied customers who have received fast approval and same-day funding. No application fees, no obligation to accept the loan offer. Check your rate in minutes without impacting your credit score. Get the financial relief you need today with QuickCash—America's trusted online lender.
+          Join thousands of satisfied customers who have received fast approval and same-day funding. No application fees, no obligation to accept the loan offer. Check your rate in minutes without impacting your credit score. Get the financial relief you need today with ZocaLoans's trusted online lender.
         </p>
 
         
