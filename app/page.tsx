@@ -6,6 +6,7 @@ import Requirements from '@/components/Requirements'
 import Testimonials from '@/components/Testimonials'
 import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
+import FAQSection from '@/components/FAQSection'
 
 
 export default function Home() {
@@ -18,7 +19,9 @@ export default function Home() {
       <Requirements />
       <Testimonials />
       <CTASection />
+      <FAQSection />
       <Footer />
+      
     </main>
   )
 }
