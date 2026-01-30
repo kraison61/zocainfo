@@ -21,7 +21,6 @@ export default function Home() {
       <CTASection />
       <FAQSection />
       <Footer />
-      
     </main>
   )
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Sora } from 'next/font/google'
 import './globals.css'
+import BackToTop from '@/components/BackToTop'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -81,6 +82,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans">
         {children}
+        <BackToTop />
       </body>
     </html>
   )
