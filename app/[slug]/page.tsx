@@ -10,6 +10,7 @@ import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
 import { Metadata } from "next";
 import slugify from 'slugify';
+import FAQSection from "@/components/FAQSection";
 
 type Props = {
   params: {
@@ -54,6 +55,7 @@ export default async function LoanPage({ params }: Props) {
       <Requirements />
       <Testimonials />
       <CTASection />
+      <FAQSection />
       <Footer />
     </>
   );
