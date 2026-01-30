@@ -38,10 +38,10 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="z-50 flex items-center gap-2 group">
             <div className="flex items-center justify-center w-10 h-10 text-xl font-bold text-white transition-transform bg-gradient-to-br from-primary to-primary-dark rounded-xl group-hover:scale-110">
-              Q
+              Z
             </div>
             <span className="text-2xl font-bold font-display text-primary-dark">
-              QuickCash
+              ZocaLoan
             </span>
           </Link>
 
