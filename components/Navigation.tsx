@@ -47,16 +47,16 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="items-center hidden gap-8 md:flex">
-            <Link href="#how" className="nav-link">
+            <Link href="/#how" className="nav-link">
               How It Works
             </Link>
-            <Link href="#benefits" className="nav-link">
+            <Link href="/#benefits" className="nav-link">
               Benefits
             </Link>
-            <Link href="#requirements" className="nav-link">
+            <Link href="/#requirements" className="nav-link">
               Requirements
             </Link>
-            <Link href="#testimonials" className="nav-link">
+            <Link href="/#testimonials" className="nav-link">
               Reviews
             </Link>
             <Link 
@@ -99,7 +99,7 @@ export default function Navigation() {
       }`}>
         <div className="px-4 py-6 space-y-4">
           <Link 
-            href="#how" 
+            href="/#how" 
             className="mobile-nav-link"
             onClick={handleLinkClick}
           >
@@ -110,7 +110,7 @@ export default function Navigation() {
           </Link>
           
           <Link 
-            href="#benefits" 
+            href="/#benefits" 
             className="mobile-nav-link"
             onClick={handleLinkClick}
           >
@@ -121,7 +121,7 @@ export default function Navigation() {
           </Link>
           
           <Link 
-            href="#requirements" 
+            href="/#requirements" 
             className="mobile-nav-link"
             onClick={handleLinkClick}
           >
@@ -132,7 +132,7 @@ export default function Navigation() {
           </Link>
           
           <Link 
-            href="#testimonials" 
+            href="/#testimonials" 
             className="mobile-nav-link"
             onClick={handleLinkClick}
           >

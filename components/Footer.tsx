@@ -2,11 +2,11 @@ import Link from 'next/link'
 
 export default function Footer() {
   const services = [
-    { name: 'Personal Loans Online', href: 'personal-loans-online' },
-    { name: 'Debt Consolidation Loans', href: 'debt-consolidation-loans' },
-    { name: 'Emergency Cash Loans', href: 'emergency-cash-loans' },
-    { name: 'Loan Calculator Tool', href: '#calculator' },
-    { name: 'Check Application Status', href: '#apply' },
+    { name: 'Personal Loans Online', href: '/personal-loans-online' },
+    { name: 'Debt Consolidation Loans', href: '/debt-consolidation-loans' },
+    { name: 'Emergency Cash Loans', href: '/emergency-cash-loans' },
+    { name: 'Loan Calculator Tool', href: '/#calculator' },
+    { name: 'Check Application Status', href: '/#apply' },
   ]
 
   const company = [
