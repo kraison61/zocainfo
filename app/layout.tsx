@@ -55,6 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${sora.variable}`}>
       <head>
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
